@@ -41,7 +41,7 @@ This function takes a string `text` as input, representing the lyrics of a song.
 ## Example
 Suppose the const.js file contains the following input text data:
 
-```
+```javascript
 export const texts = [
   "No. 1\nThis is the lyrics of the first song.",
   "No. 2\nThis is the lyrics of the second song.",
@@ -51,7 +51,7 @@ export const texts = [
 
 After running the converter using node `main.js`, it will generate a `songs.json` file with the following content:
 
-```
+```json
 [
   {
     "number": "No. 1",
